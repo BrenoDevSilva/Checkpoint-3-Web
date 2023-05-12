@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: linear-gradient(to right, rgb(255, 255, 255), rgba(219, 212, 212, 0.631), rgba(255, 253, 253, 0.648));
+    background-image: linear-gradient(to right, rgb(82, 80, 80), rgb(57, 56, 56), rgb(27, 26, 26));
+    font-family: arial;
+    font-size: 12px;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    position:relative;
+    min-height: 405px;
+}
+
+.container_contato {
+    text-align: center;
+    min-height: 375px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container_sobre {
+    text-align: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#menu ul {
+    margin-right: 20px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    border: 1.5px solid black;
+    border-radius: 10%;
+    margin: 0 5px 0 5px;
+    
+}
+
+#menu ul li a{
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(167, 44, 44);
+    text-decoration: none;
+}
+
+
+#menu ul li:hover {
+    background-color: #000000c6;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#h1_home {
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: line-through;
+    margin-top: 40px;
+}
+
+.div_pai{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.div_pai_sobre{
+    margin: 30px 0 30px 0;
+}
+
+#button1 {
+    background-color: #0202026e;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+
+#button2 {
+    background-color: rgba(255, 255, 255, 0.637);
+    color: black;
+    border: 2px solid black;
+}
+
+
+#button1, #button2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+    margin: 10px;
+    padding: 8px;
+}
+
+
+#p_home {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.p_cor {
+    font-size: 24px;
+    font-family: 'Instrument Serif', serif;
+    padding: 0 80px 0 120px;
+}
+
+h2 {
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.pai_texto {
+    width: 95%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+#cor {
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+}
+
+#formulario {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.formu {
+    margin: auto;
+}
+
+#envolver_form {
+    border: 1px solid black;
+}
+
+#h1_cont {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(212, 174, 124);
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#h1_quiz {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(212, 174, 124);
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#nome_cont, #email_cont, #tel_cont {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 1000;
+}
+
+#button_cont {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 1000;
+    padding: 3px;
+    margin: 10px 0 10px 0;
+}
+
+#image{
+    width: 650px;
+    height: 400px;
+    margin: 30px 0 30px 0;
+    border: 3px solid black;
+    border-radius: 6% 0 6% 0;
+}
+
+#container_produtos1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px 0 30px;
+    gap: 30px;
+}
+
+#container_produtos2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px 0 30px;
+    gap: 30px;
+    margin: 50px 0 50px 0;
+}
+
+.produtos {
+    width: 300px;
+    height: 520px;
+    background-color: white;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.img_cont_produtos {
+    padding: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.desc_caixa{
+    height: 20%;
+    display: grid;
+    padding: 10px;
+}
+
+.img_produtos {
+    width: 100%;
+    height: 100%;
+}
+
+.desc_produtos {
+    width: 100%;
+    height: 50%;
+    font-size: 16px;
+    font-family: 'Instrument Serif', serif;
+}
+
+.preço_produtos {
+    width: 100%;
+    height: 50%;
+    font-size: 16px;
+    font-family: 'Instrument Serif', serif;
+}
+
+.cont_button {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cont_button a {
+    text-decoration: none;
+    background-color: #c6c6c6;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15%;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 1000;
+    font-size: 16px;
+}
+
+.cont_button a:hover {
+    padding: 11px 35px 11px 35px;
+}
+
+#foot_cont{
+    display: grid;
+    background-color: #c6c6c6c6;
+    text-align: center;
+    height: 100px;
+}
+
+#foot_btns {
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#foot_btns a img:hover {
+    padding: 3px;
+}
+
+#foot_txt {
+    height: 40px;
+    margin-top: 10px;
+}
+
+#quiz_cont {
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    height: 385px;
+    border: 1px solid black;
+}
+
+#quiz_sobre {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 1000;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 15%;
+}
+
+#quiz_sobre:hover {
+    background-color:rgb(216, 143, 49);
+    padding: 6px;
+}
+
+#quiz_sobre:active {
+    background-color:rgba(118, 116, 116, 0);
+    font-size: 20px;
+}
+
+
+#respostas {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    background-color: rgba(49, 145, 204, 0);
+    padding: 10px;
+    margin-top: 10px;
+}
